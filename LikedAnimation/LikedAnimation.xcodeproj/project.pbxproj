@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD1CAFB726E2C5BA0002979F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1CAFB626E2C5BA0002979F /* Post.swift */; };
+		AD1CAFB926E2C5D90002979F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1CAFB826E2C5D90002979F /* Home.swift */; };
+		AD704C7B26E2711A00A6F640 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD704C7A26E2711A00A6F640 /* Tests_iOS.swift */; };
+		AD704C7D26E2711A00A6F640 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD704C7C26E2711A00A6F640 /* Tests_iOSLaunchTests.swift */; };
+		AD704C8726E2711A00A6F640 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD704C8626E2711A00A6F640 /* Tests_macOS.swift */; };
+		AD704C8926E2711A00A6F640 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD704C8826E2711A00A6F640 /* Tests_macOSLaunchTests.swift */; };
+		AD704C8A26E2711A00A6F640 /* LikedAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD704C6426E2711900A6F640 /* LikedAnimationApp.swift */; };
+		AD704C8B26E2711A00A6F640 /* LikedAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD704C6426E2711900A6F640 /* LikedAnimationApp.swift */; };
+		AD704C8C26E2711A00A6F640 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD704C6526E2711900A6F640 /* ContentView.swift */; };
+		AD704C8D26E2711A00A6F640 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD704C6526E2711900A6F640 /* ContentView.swift */; };
+		AD704C8E26E2711A00A6F640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD704C6626E2711A00A6F640 /* Assets.xcassets */; };
+		AD704C8F26E2711A00A6F640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD704C6626E2711A00A6F640 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD704C7726E2711A00A6F640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD704C5F26E2711900A6F640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD704C6A26E2711A00A6F640;
+			remoteInfo = "LikedAnimation (iOS)";
+		};
+		AD704C8326E2711A00A6F640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD704C5F26E2711900A6F640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD704C7026E2711A00A6F640;
+			remoteInfo = "LikedAnimation (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD1CAFB626E2C5BA0002979F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		AD1CAFB826E2C5D90002979F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD704C6426E2711900A6F640 /* LikedAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedAnimationApp.swift; sourceTree = "<group>"; };
+		AD704C6526E2711900A6F640 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD704C6626E2711A00A6F640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD704C6B26E2711A00A6F640 /* LikedAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikedAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD704C7126E2711A00A6F640 /* LikedAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikedAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD704C7626E2711A00A6F640 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD704C7A26E2711A00A6F640 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AD704C7C26E2711A00A6F640 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD704C8226E2711A00A6F640 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD704C8626E2711A00A6F640 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD704C8826E2711A00A6F640 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD704C6826E2711A00A6F640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD704C6E26E2711A00A6F640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD704C7326E2711A00A6F640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD704C7F26E2711A00A6F640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD1CAFB426E2C5B10002979F /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				AD1CAFB826E2C5D90002979F /* Home.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		AD1CAFB526E2C5B40002979F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD1CAFB626E2C5BA0002979F /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD704C5E26E2711900A6F640 = {
+			isa = PBXGroup;
+			children = (
+				AD704C6326E2711900A6F640 /* Shared */,
+				AD704C7926E2711A00A6F640 /* Tests iOS */,
+				AD704C8526E2711A00A6F640 /* Tests macOS */,
+				AD704C6C26E2711A00A6F640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD704C6326E2711900A6F640 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD1CAFB526E2C5B40002979F /* Model */,
+				AD1CAFB426E2C5B10002979F /* VIew */,
+				AD704C6426E2711900A6F640 /* LikedAnimationApp.swift */,
+				AD704C6526E2711900A6F640 /* ContentView.swift */,
+				AD704C6626E2711A00A6F640 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD704C6C26E2711A00A6F640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD704C6B26E2711A00A6F640 /* LikedAnimation.app */,
+				AD704C7126E2711A00A6F640 /* LikedAnimation.app */,
+				AD704C7626E2711A00A6F640 /* Tests iOS.xctest */,
+				AD704C8226E2711A00A6F640 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD704C7926E2711A00A6F640 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD704C7A26E2711A00A6F640 /* Tests_iOS.swift */,
+				AD704C7C26E2711A00A6F640 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AD704C8526E2711A00A6F640 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD704C8626E2711A00A6F640 /* Tests_macOS.swift */,
+				AD704C8826E2711A00A6F640 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD704C6A26E2711A00A6F640 /* LikedAnimation (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD704C9226E2711A00A6F640 /* Build configuration list for PBXNativeTarget "LikedAnimation (iOS)" */;
+			buildPhases = (
+				AD704C6726E2711A00A6F640 /* Sources */,
+				AD704C6826E2711A00A6F640 /* Frameworks */,
+				AD704C6926E2711A00A6F640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LikedAnimation (iOS)";
+			productName = "LikedAnimation (iOS)";
+			productReference = AD704C6B26E2711A00A6F640 /* LikedAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD704C7026E2711A00A6F640 /* LikedAnimation (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD704C9526E2711A00A6F640 /* Build configuration list for PBXNativeTarget "LikedAnimation (macOS)" */;
+			buildPhases = (
+				AD704C6D26E2711A00A6F640 /* Sources */,
+				AD704C6E26E2711A00A6F640 /* Frameworks */,
+				AD704C6F26E2711A00A6F640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LikedAnimation (macOS)";
+			productName = "LikedAnimation (macOS)";
+			productReference = AD704C7126E2711A00A6F640 /* LikedAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD704C7526E2711A00A6F640 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD704C9826E2711A00A6F640 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD704C7226E2711A00A6F640 /* Sources */,
+				AD704C7326E2711A00A6F640 /* Frameworks */,
+				AD704C7426E2711A00A6F640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD704C7826E2711A00A6F640 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD704C7626E2711A00A6F640 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD704C8126E2711A00A6F640 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD704C9B26E2711A00A6F640 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD704C7E26E2711A00A6F640 /* Sources */,
+				AD704C7F26E2711A00A6F640 /* Frameworks */,
+				AD704C8026E2711A00A6F640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD704C8426E2711A00A6F640 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD704C8226E2711A00A6F640 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD704C5F26E2711900A6F640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AD704C6A26E2711A00A6F640 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AD704C7026E2711A00A6F640 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AD704C7526E2711A00A6F640 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AD704C6A26E2711A00A6F640;
+					};
+					AD704C8126E2711A00A6F640 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AD704C7026E2711A00A6F640;
+					};
+				};
+			};
+			buildConfigurationList = AD704C6226E2711900A6F640 /* Build configuration list for PBXProject "LikedAnimation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD704C5E26E2711900A6F640;
+			productRefGroup = AD704C6C26E2711A00A6F640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD704C6A26E2711A00A6F640 /* LikedAnimation (iOS) */,
+				AD704C7026E2711A00A6F640 /* LikedAnimation (macOS) */,
+				AD704C7526E2711A00A6F640 /* Tests iOS */,
+				AD704C8126E2711A00A6F640 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD704C6926E2711A00A6F640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD704C8E26E2711A00A6F640 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD704C6F26E2711A00A6F640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD704C8F26E2711A00A6F640 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD704C7426E2711A00A6F640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD704C8026E2711A00A6F640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD704C6726E2711A00A6F640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1CAFB726E2C5BA0002979F /* Post.swift in Sources */,
+				AD704C8C26E2711A00A6F640 /* ContentView.swift in Sources */,
+				AD1CAFB926E2C5D90002979F /* Home.swift in Sources */,
+				AD704C8A26E2711A00A6F640 /* LikedAnimationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD704C6D26E2711A00A6F640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD704C8D26E2711A00A6F640 /* ContentView.swift in Sources */,
+				AD704C8B26E2711A00A6F640 /* LikedAnimationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD704C7226E2711A00A6F640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD704C7D26E2711A00A6F640 /* Tests_iOSLaunchTests.swift in Sources */,
+				AD704C7B26E2711A00A6F640 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD704C7E26E2711A00A6F640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD704C8926E2711A00A6F640 /* Tests_macOSLaunchTests.swift in Sources */,
+				AD704C8726E2711A00A6F640 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD704C7826E2711A00A6F640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD704C6A26E2711A00A6F640 /* LikedAnimation (iOS) */;
+			targetProxy = AD704C7726E2711A00A6F640 /* PBXContainerItemProxy */;
+		};
+		AD704C8426E2711A00A6F640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD704C7026E2711A00A6F640 /* LikedAnimation (macOS) */;
+			targetProxy = AD704C8326E2711A00A6F640 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD704C9026E2711A00A6F640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD704C9126E2711A00A6F640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD704C9326E2711A00A6F640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.LikedAnimation;
+				PRODUCT_NAME = LikedAnimation;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD704C9426E2711A00A6F640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.LikedAnimation;
+				PRODUCT_NAME = LikedAnimation;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD704C9626E2711A00A6F640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.LikedAnimation;
+				PRODUCT_NAME = LikedAnimation;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD704C9726E2711A00A6F640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.LikedAnimation;
+				PRODUCT_NAME = LikedAnimation;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD704C9926E2711A00A6F640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LikedAnimation (iOS)";
+			};
+			name = Debug;
+		};
+		AD704C9A26E2711A00A6F640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LikedAnimation (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD704C9C26E2711A00A6F640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LikedAnimation (macOS)";
+			};
+			name = Debug;
+		};
+		AD704C9D26E2711A00A6F640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LikedAnimation (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD704C6226E2711900A6F640 /* Build configuration list for PBXProject "LikedAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD704C9026E2711A00A6F640 /* Debug */,
+				AD704C9126E2711A00A6F640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD704C9226E2711A00A6F640 /* Build configuration list for PBXNativeTarget "LikedAnimation (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD704C9326E2711A00A6F640 /* Debug */,
+				AD704C9426E2711A00A6F640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD704C9526E2711A00A6F640 /* Build configuration list for PBXNativeTarget "LikedAnimation (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD704C9626E2711A00A6F640 /* Debug */,
+				AD704C9726E2711A00A6F640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD704C9826E2711A00A6F640 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD704C9926E2711A00A6F640 /* Debug */,
+				AD704C9A26E2711A00A6F640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD704C9B26E2711A00A6F640 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD704C9C26E2711A00A6F640 /* Debug */,
+				AD704C9D26E2711A00A6F640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD704C5F26E2711900A6F640 /* Project object */;
+}

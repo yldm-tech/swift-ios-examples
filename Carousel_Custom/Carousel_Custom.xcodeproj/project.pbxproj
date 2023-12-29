@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD380B3626B5B13F001C0412 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD380B3526B5B13F001C0412 /* Tests_iOS.swift */; };
+		AD380B4026B5B13F001C0412 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD380B3F26B5B13F001C0412 /* Tests_macOS.swift */; };
+		AD380B4126B5B13F001C0412 /* Carousel_CustomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD380B1F26B5B13F001C0412 /* Carousel_CustomApp.swift */; };
+		AD380B4226B5B13F001C0412 /* Carousel_CustomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD380B1F26B5B13F001C0412 /* Carousel_CustomApp.swift */; };
+		AD380B4326B5B13F001C0412 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD380B2026B5B13F001C0412 /* ContentView.swift */; };
+		AD380B4426B5B13F001C0412 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD380B2026B5B13F001C0412 /* ContentView.swift */; };
+		AD380B4526B5B13F001C0412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD380B2126B5B13F001C0412 /* Assets.xcassets */; };
+		AD380B4626B5B13F001C0412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD380B2126B5B13F001C0412 /* Assets.xcassets */; };
+		AD81B89C26B5DD9C003469C7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD81B89B26B5DD9C003469C7 /* Home.swift */; };
+		AD81B89E26B5DE2A003469C7 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD81B89D26B5DE2A003469C7 /* SnapCarousel.swift */; };
+		AD81B8A026B5DEF9003469C7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD81B89F26B5DEF9003469C7 /* Post.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD380B3226B5B13F001C0412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD380B1A26B5B13F001C0412 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD380B2526B5B13F001C0412;
+			remoteInfo = "Carousel_Custom (iOS)";
+		};
+		AD380B3C26B5B13F001C0412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD380B1A26B5B13F001C0412 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD380B2B26B5B13F001C0412;
+			remoteInfo = "Carousel_Custom (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD380B1F26B5B13F001C0412 /* Carousel_CustomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel_CustomApp.swift; sourceTree = "<group>"; };
+		AD380B2026B5B13F001C0412 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD380B2126B5B13F001C0412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD380B2626B5B13F001C0412 /* Carousel_Custom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel_Custom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD380B2C26B5B13F001C0412 /* Carousel_Custom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel_Custom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD380B3126B5B13F001C0412 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD380B3526B5B13F001C0412 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AD380B3B26B5B13F001C0412 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD380B3F26B5B13F001C0412 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD81B89B26B5DD9C003469C7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD81B89D26B5DE2A003469C7 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		AD81B89F26B5DEF9003469C7 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD380B2326B5B13F001C0412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD380B2926B5B13F001C0412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD380B2E26B5B13F001C0412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD380B3826B5B13F001C0412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD380B1926B5B13F001C0412 = {
+			isa = PBXGroup;
+			children = (
+				AD380B1E26B5B13F001C0412 /* Shared */,
+				AD380B3426B5B13F001C0412 /* Tests iOS */,
+				AD380B3E26B5B13F001C0412 /* Tests macOS */,
+				AD380B2726B5B13F001C0412 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD380B1E26B5B13F001C0412 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD81B89A26B5DD97003469C7 /* Model */,
+				AD81B89926B5DD93003469C7 /* View */,
+				AD380B1F26B5B13F001C0412 /* Carousel_CustomApp.swift */,
+				AD380B2026B5B13F001C0412 /* ContentView.swift */,
+				AD380B2126B5B13F001C0412 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD380B2726B5B13F001C0412 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD380B2626B5B13F001C0412 /* Carousel_Custom.app */,
+				AD380B2C26B5B13F001C0412 /* Carousel_Custom.app */,
+				AD380B3126B5B13F001C0412 /* Tests iOS.xctest */,
+				AD380B3B26B5B13F001C0412 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD380B3426B5B13F001C0412 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD380B3526B5B13F001C0412 /* Tests_iOS.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AD380B3E26B5B13F001C0412 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD380B3F26B5B13F001C0412 /* Tests_macOS.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		AD81B89926B5DD93003469C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD81B89B26B5DD9C003469C7 /* Home.swift */,
+				AD81B89D26B5DE2A003469C7 /* SnapCarousel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD81B89A26B5DD97003469C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD81B89F26B5DEF9003469C7 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD380B2526B5B13F001C0412 /* Carousel_Custom (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD380B4926B5B13F001C0412 /* Build configuration list for PBXNativeTarget "Carousel_Custom (iOS)" */;
+			buildPhases = (
+				AD380B2226B5B13F001C0412 /* Sources */,
+				AD380B2326B5B13F001C0412 /* Frameworks */,
+				AD380B2426B5B13F001C0412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Carousel_Custom (iOS)";
+			productName = "Carousel_Custom (iOS)";
+			productReference = AD380B2626B5B13F001C0412 /* Carousel_Custom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD380B2B26B5B13F001C0412 /* Carousel_Custom (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD380B4C26B5B13F001C0412 /* Build configuration list for PBXNativeTarget "Carousel_Custom (macOS)" */;
+			buildPhases = (
+				AD380B2826B5B13F001C0412 /* Sources */,
+				AD380B2926B5B13F001C0412 /* Frameworks */,
+				AD380B2A26B5B13F001C0412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Carousel_Custom (macOS)";
+			productName = "Carousel_Custom (macOS)";
+			productReference = AD380B2C26B5B13F001C0412 /* Carousel_Custom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD380B3026B5B13F001C0412 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD380B4F26B5B13F001C0412 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD380B2D26B5B13F001C0412 /* Sources */,
+				AD380B2E26B5B13F001C0412 /* Frameworks */,
+				AD380B2F26B5B13F001C0412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD380B3326B5B13F001C0412 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD380B3126B5B13F001C0412 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD380B3A26B5B13F001C0412 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD380B5226B5B13F001C0412 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD380B3726B5B13F001C0412 /* Sources */,
+				AD380B3826B5B13F001C0412 /* Frameworks */,
+				AD380B3926B5B13F001C0412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD380B3D26B5B13F001C0412 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD380B3B26B5B13F001C0412 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD380B1A26B5B13F001C0412 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AD380B2526B5B13F001C0412 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AD380B2B26B5B13F001C0412 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AD380B3026B5B13F001C0412 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AD380B2526B5B13F001C0412;
+					};
+					AD380B3A26B5B13F001C0412 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AD380B2B26B5B13F001C0412;
+					};
+				};
+			};
+			buildConfigurationList = AD380B1D26B5B13F001C0412 /* Build configuration list for PBXProject "Carousel_Custom" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD380B1926B5B13F001C0412;
+			productRefGroup = AD380B2726B5B13F001C0412 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD380B2526B5B13F001C0412 /* Carousel_Custom (iOS) */,
+				AD380B2B26B5B13F001C0412 /* Carousel_Custom (macOS) */,
+				AD380B3026B5B13F001C0412 /* Tests iOS */,
+				AD380B3A26B5B13F001C0412 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD380B2426B5B13F001C0412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD380B4526B5B13F001C0412 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD380B2A26B5B13F001C0412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD380B4626B5B13F001C0412 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD380B2F26B5B13F001C0412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD380B3926B5B13F001C0412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD380B2226B5B13F001C0412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD380B4326B5B13F001C0412 /* ContentView.swift in Sources */,
+				AD81B89E26B5DE2A003469C7 /* SnapCarousel.swift in Sources */,
+				AD81B89C26B5DD9C003469C7 /* Home.swift in Sources */,
+				AD380B4126B5B13F001C0412 /* Carousel_CustomApp.swift in Sources */,
+				AD81B8A026B5DEF9003469C7 /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD380B2826B5B13F001C0412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD380B4426B5B13F001C0412 /* ContentView.swift in Sources */,
+				AD380B4226B5B13F001C0412 /* Carousel_CustomApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD380B2D26B5B13F001C0412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD380B3626B5B13F001C0412 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD380B3726B5B13F001C0412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD380B4026B5B13F001C0412 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD380B3326B5B13F001C0412 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD380B2526B5B13F001C0412 /* Carousel_Custom (iOS) */;
+			targetProxy = AD380B3226B5B13F001C0412 /* PBXContainerItemProxy */;
+		};
+		AD380B3D26B5B13F001C0412 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD380B2B26B5B13F001C0412 /* Carousel_Custom (macOS) */;
+			targetProxy = AD380B3C26B5B13F001C0412 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD380B4726B5B13F001C0412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD380B4826B5B13F001C0412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD380B4A26B5B13F001C0412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Carousel-Custom";
+				PRODUCT_NAME = Carousel_Custom;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD380B4B26B5B13F001C0412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Carousel-Custom";
+				PRODUCT_NAME = Carousel_Custom;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD380B4D26B5B13F001C0412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Carousel-Custom";
+				PRODUCT_NAME = Carousel_Custom;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD380B4E26B5B13F001C0412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Carousel-Custom";
+				PRODUCT_NAME = Carousel_Custom;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD380B5026B5B13F001C0412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Carousel_Custom (iOS)";
+			};
+			name = Debug;
+		};
+		AD380B5126B5B13F001C0412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Carousel_Custom (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD380B5326B5B13F001C0412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Carousel_Custom (macOS)";
+			};
+			name = Debug;
+		};
+		AD380B5426B5B13F001C0412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Carousel_Custom (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD380B1D26B5B13F001C0412 /* Build configuration list for PBXProject "Carousel_Custom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD380B4726B5B13F001C0412 /* Debug */,
+				AD380B4826B5B13F001C0412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD380B4926B5B13F001C0412 /* Build configuration list for PBXNativeTarget "Carousel_Custom (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD380B4A26B5B13F001C0412 /* Debug */,
+				AD380B4B26B5B13F001C0412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD380B4C26B5B13F001C0412 /* Build configuration list for PBXNativeTarget "Carousel_Custom (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD380B4D26B5B13F001C0412 /* Debug */,
+				AD380B4E26B5B13F001C0412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD380B4F26B5B13F001C0412 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD380B5026B5B13F001C0412 /* Debug */,
+				AD380B5126B5B13F001C0412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD380B5226B5B13F001C0412 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD380B5326B5B13F001C0412 /* Debug */,
+				AD380B5426B5B13F001C0412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD380B1A26B5B13F001C0412 /* Project object */;
+}

@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD93E65726E0020000F88DBC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AD93E65626E0020000F88DBC /* FirebaseAuth */; };
+		AD99CBD426DFFC720030D3F8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99CBD326DFFC720030D3F8 /* Tests_iOS.swift */; };
+		AD99CBD626DFFC720030D3F8 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99CBD526DFFC720030D3F8 /* Tests_iOSLaunchTests.swift */; };
+		AD99CBE026DFFC720030D3F8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99CBDF26DFFC720030D3F8 /* Tests_macOS.swift */; };
+		AD99CBE226DFFC720030D3F8 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99CBE126DFFC720030D3F8 /* Tests_macOSLaunchTests.swift */; };
+		AD99CBE326DFFC720030D3F8 /* FullLoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99CBBD26DFFC710030D3F8 /* FullLoginApp.swift */; };
+		AD99CBE426DFFC720030D3F8 /* FullLoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99CBBD26DFFC710030D3F8 /* FullLoginApp.swift */; };
+		AD99CBE526DFFC720030D3F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99CBBE26DFFC710030D3F8 /* ContentView.swift */; };
+		AD99CBE626DFFC720030D3F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99CBBE26DFFC710030D3F8 /* ContentView.swift */; };
+		AD99CBE726DFFC720030D3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD99CBBF26DFFC720030D3F8 /* Assets.xcassets */; };
+		AD99CBE826DFFC720030D3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD99CBBF26DFFC720030D3F8 /* Assets.xcassets */; };
+		AD99CBFA26DFFD2B0030D3F8 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99CBF926DFFD2B0030D3F8 /* Login.swift */; };
+		AD99CBFC26DFFD890030D3F8 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99CBFB26DFFD890030D3F8 /* CustomTextField.swift */; };
+		AD99CBFE26DFFE120030D3F8 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD99CBFD26DFFE120030D3F8 /* LoginViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD99CBD026DFFC720030D3F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD99CBB826DFFC710030D3F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD99CBC326DFFC720030D3F8;
+			remoteInfo = "FullLogin (iOS)";
+		};
+		AD99CBDC26DFFC720030D3F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD99CBB826DFFC710030D3F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD99CBC926DFFC720030D3F8;
+			remoteInfo = "FullLogin (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD93E65B26E0023700F88DBC /* FullLogin--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FullLogin--iOS--Info.plist"; sourceTree = "<group>"; };
+		AD93E65C26E00A4A00F88DBC /* FullLogin (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FullLogin (iOS).entitlements"; sourceTree = "<group>"; };
+		AD99CBBD26DFFC710030D3F8 /* FullLoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullLoginApp.swift; sourceTree = "<group>"; };
+		AD99CBBE26DFFC710030D3F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD99CBBF26DFFC720030D3F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD99CBC426DFFC720030D3F8 /* FullLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD99CBCA26DFFC720030D3F8 /* FullLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD99CBCF26DFFC720030D3F8 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD99CBD326DFFC720030D3F8 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AD99CBD526DFFC720030D3F8 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD99CBDB26DFFC720030D3F8 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD99CBDF26DFFC720030D3F8 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD99CBE126DFFC720030D3F8 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		AD99CBF926DFFD2B0030D3F8 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		AD99CBFB26DFFD890030D3F8 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		AD99CBFD26DFFE120030D3F8 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD99CBC126DFFC720030D3F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD93E65726E0020000F88DBC /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD99CBC726DFFC720030D3F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD99CBCC26DFFC720030D3F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD99CBD826DFFC720030D3F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD99CBB726DFFC710030D3F8 = {
+			isa = PBXGroup;
+			children = (
+				AD93E65C26E00A4A00F88DBC /* FullLogin (iOS).entitlements */,
+				AD93E65B26E0023700F88DBC /* FullLogin--iOS--Info.plist */,
+				AD99CBBC26DFFC710030D3F8 /* Shared */,
+				AD99CBD226DFFC720030D3F8 /* Tests iOS */,
+				AD99CBDE26DFFC720030D3F8 /* Tests macOS */,
+				AD99CBC526DFFC720030D3F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD99CBBC26DFFC710030D3F8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD99CBF826DFFD230030D3F8 /* ViewModel */,
+				AD99CBF726DFFD1F0030D3F8 /* View */,
+				AD99CBBD26DFFC710030D3F8 /* FullLoginApp.swift */,
+				AD99CBBE26DFFC710030D3F8 /* ContentView.swift */,
+				AD99CBBF26DFFC720030D3F8 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD99CBC526DFFC720030D3F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD99CBC426DFFC720030D3F8 /* FullLogin.app */,
+				AD99CBCA26DFFC720030D3F8 /* FullLogin.app */,
+				AD99CBCF26DFFC720030D3F8 /* Tests iOS.xctest */,
+				AD99CBDB26DFFC720030D3F8 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD99CBD226DFFC720030D3F8 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD99CBD326DFFC720030D3F8 /* Tests_iOS.swift */,
+				AD99CBD526DFFC720030D3F8 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AD99CBDE26DFFC720030D3F8 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD99CBDF26DFFC720030D3F8 /* Tests_macOS.swift */,
+				AD99CBE126DFFC720030D3F8 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		AD99CBF726DFFD1F0030D3F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD99CBF926DFFD2B0030D3F8 /* Login.swift */,
+				AD99CBFB26DFFD890030D3F8 /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD99CBF826DFFD230030D3F8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD99CBFD26DFFE120030D3F8 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD99CBC326DFFC720030D3F8 /* FullLogin (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD99CBEB26DFFC720030D3F8 /* Build configuration list for PBXNativeTarget "FullLogin (iOS)" */;
+			buildPhases = (
+				AD99CBC026DFFC720030D3F8 /* Sources */,
+				AD99CBC126DFFC720030D3F8 /* Frameworks */,
+				AD99CBC226DFFC720030D3F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FullLogin (iOS)";
+			packageProductDependencies = (
+				AD93E65626E0020000F88DBC /* FirebaseAuth */,
+			);
+			productName = "FullLogin (iOS)";
+			productReference = AD99CBC426DFFC720030D3F8 /* FullLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD99CBC926DFFC720030D3F8 /* FullLogin (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD99CBEE26DFFC720030D3F8 /* Build configuration list for PBXNativeTarget "FullLogin (macOS)" */;
+			buildPhases = (
+				AD99CBC626DFFC720030D3F8 /* Sources */,
+				AD99CBC726DFFC720030D3F8 /* Frameworks */,
+				AD99CBC826DFFC720030D3F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FullLogin (macOS)";
+			productName = "FullLogin (macOS)";
+			productReference = AD99CBCA26DFFC720030D3F8 /* FullLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD99CBCE26DFFC720030D3F8 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD99CBF126DFFC720030D3F8 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD99CBCB26DFFC720030D3F8 /* Sources */,
+				AD99CBCC26DFFC720030D3F8 /* Frameworks */,
+				AD99CBCD26DFFC720030D3F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD99CBD126DFFC720030D3F8 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD99CBCF26DFFC720030D3F8 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD99CBDA26DFFC720030D3F8 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD99CBF426DFFC720030D3F8 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD99CBD726DFFC720030D3F8 /* Sources */,
+				AD99CBD826DFFC720030D3F8 /* Frameworks */,
+				AD99CBD926DFFC720030D3F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD99CBDD26DFFC720030D3F8 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD99CBDB26DFFC720030D3F8 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD99CBB826DFFC710030D3F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AD99CBC326DFFC720030D3F8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AD99CBC926DFFC720030D3F8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AD99CBCE26DFFC720030D3F8 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AD99CBC326DFFC720030D3F8;
+					};
+					AD99CBDA26DFFC720030D3F8 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AD99CBC926DFFC720030D3F8;
+					};
+				};
+			};
+			buildConfigurationList = AD99CBBB26DFFC710030D3F8 /* Build configuration list for PBXProject "FullLogin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD99CBB726DFFC710030D3F8;
+			packageReferences = (
+				AD93E65526E0020000F88DBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = AD99CBC526DFFC720030D3F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD99CBC326DFFC720030D3F8 /* FullLogin (iOS) */,
+				AD99CBC926DFFC720030D3F8 /* FullLogin (macOS) */,
+				AD99CBCE26DFFC720030D3F8 /* Tests iOS */,
+				AD99CBDA26DFFC720030D3F8 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD99CBC226DFFC720030D3F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD99CBE726DFFC720030D3F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD99CBC826DFFC720030D3F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD99CBE826DFFC720030D3F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD99CBCD26DFFC720030D3F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD99CBD926DFFC720030D3F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD99CBC026DFFC720030D3F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD99CBFC26DFFD890030D3F8 /* CustomTextField.swift in Sources */,
+				AD99CBFA26DFFD2B0030D3F8 /* Login.swift in Sources */,
+				AD99CBE526DFFC720030D3F8 /* ContentView.swift in Sources */,
+				AD99CBFE26DFFE120030D3F8 /* LoginViewModel.swift in Sources */,
+				AD99CBE326DFFC720030D3F8 /* FullLoginApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD99CBC626DFFC720030D3F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD99CBE626DFFC720030D3F8 /* ContentView.swift in Sources */,
+				AD99CBE426DFFC720030D3F8 /* FullLoginApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD99CBCB26DFFC720030D3F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD99CBD626DFFC720030D3F8 /* Tests_iOSLaunchTests.swift in Sources */,
+				AD99CBD426DFFC720030D3F8 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD99CBD726DFFC720030D3F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD99CBE226DFFC720030D3F8 /* Tests_macOSLaunchTests.swift in Sources */,
+				AD99CBE026DFFC720030D3F8 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD99CBD126DFFC720030D3F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD99CBC326DFFC720030D3F8 /* FullLogin (iOS) */;
+			targetProxy = AD99CBD026DFFC720030D3F8 /* PBXContainerItemProxy */;
+		};
+		AD99CBDD26DFFC720030D3F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD99CBC926DFFC720030D3F8 /* FullLogin (macOS) */;
+			targetProxy = AD99CBDC26DFFC720030D3F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD99CBE926DFFC720030D3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD99CBEA26DFFC720030D3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD99CBEC26DFFC720030D3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FullLogin (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FullLogin--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.FullLogin1;
+				PRODUCT_NAME = FullLogin;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD99CBED26DFFC720030D3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FullLogin (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FullLogin--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.FullLogin1;
+				PRODUCT_NAME = FullLogin;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD99CBEF26DFFC720030D3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.FullLogin;
+				PRODUCT_NAME = FullLogin;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD99CBF026DFFC720030D3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.FullLogin;
+				PRODUCT_NAME = FullLogin;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD99CBF226DFFC720030D3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FullLogin (iOS)";
+			};
+			name = Debug;
+		};
+		AD99CBF326DFFC720030D3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FullLogin (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD99CBF526DFFC720030D3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FullLogin (macOS)";
+			};
+			name = Debug;
+		};
+		AD99CBF626DFFC720030D3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FullLogin (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD99CBBB26DFFC710030D3F8 /* Build configuration list for PBXProject "FullLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD99CBE926DFFC720030D3F8 /* Debug */,
+				AD99CBEA26DFFC720030D3F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD99CBEB26DFFC720030D3F8 /* Build configuration list for PBXNativeTarget "FullLogin (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD99CBEC26DFFC720030D3F8 /* Debug */,
+				AD99CBED26DFFC720030D3F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD99CBEE26DFFC720030D3F8 /* Build configuration list for PBXNativeTarget "FullLogin (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD99CBEF26DFFC720030D3F8 /* Debug */,
+				AD99CBF026DFFC720030D3F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD99CBF126DFFC720030D3F8 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD99CBF226DFFC720030D3F8 /* Debug */,
+				AD99CBF326DFFC720030D3F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD99CBF426DFFC720030D3F8 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD99CBF526DFFC720030D3F8 /* Debug */,
+				AD99CBF626DFFC720030D3F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD93E65526E0020000F88DBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD93E65626E0020000F88DBC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD93E65526E0020000F88DBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD99CBB826DFFC710030D3F8 /* Project object */;
+}
