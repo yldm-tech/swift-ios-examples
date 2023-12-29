@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD98DE6724FCC50D0057D369 /* SailsJSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD98DE6624FCC50D0057D369 /* SailsJSApp.swift */; };
+		AD98DE6924FCC50D0057D369 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD98DE6824FCC50D0057D369 /* ContentView.swift */; };
+		AD98DE6B24FCC50F0057D369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD98DE6A24FCC50F0057D369 /* Assets.xcassets */; };
+		AD98DE6E24FCC50F0057D369 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD98DE6D24FCC50F0057D369 /* Preview Assets.xcassets */; };
+		AD98DE7924FCC50F0057D369 /* SailsJSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD98DE7824FCC50F0057D369 /* SailsJSTests.swift */; };
+		AD98DE8424FCC50F0057D369 /* SailsJSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD98DE8324FCC50F0057D369 /* SailsJSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD98DE7524FCC50F0057D369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD98DE5B24FCC50D0057D369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD98DE6224FCC50D0057D369;
+			remoteInfo = SailsJS;
+		};
+		AD98DE8024FCC50F0057D369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD98DE5B24FCC50D0057D369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD98DE6224FCC50D0057D369;
+			remoteInfo = SailsJS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD98DE6324FCC50D0057D369 /* SailsJS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SailsJS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD98DE6624FCC50D0057D369 /* SailsJSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SailsJSApp.swift; sourceTree = "<group>"; };
+		AD98DE6824FCC50D0057D369 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD98DE6A24FCC50F0057D369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD98DE6D24FCC50F0057D369 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD98DE6F24FCC50F0057D369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD98DE7424FCC50F0057D369 /* SailsJSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SailsJSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD98DE7824FCC50F0057D369 /* SailsJSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SailsJSTests.swift; sourceTree = "<group>"; };
+		AD98DE7A24FCC50F0057D369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD98DE7F24FCC50F0057D369 /* SailsJSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SailsJSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD98DE8324FCC50F0057D369 /* SailsJSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SailsJSUITests.swift; sourceTree = "<group>"; };
+		AD98DE8524FCC50F0057D369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD98DE6024FCC50D0057D369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD98DE7124FCC50F0057D369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD98DE7C24FCC50F0057D369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD98DE5A24FCC50D0057D369 = {
+			isa = PBXGroup;
+			children = (
+				AD98DE6524FCC50D0057D369 /* SailsJS */,
+				AD98DE7724FCC50F0057D369 /* SailsJSTests */,
+				AD98DE8224FCC50F0057D369 /* SailsJSUITests */,
+				AD98DE6424FCC50D0057D369 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD98DE6424FCC50D0057D369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD98DE6324FCC50D0057D369 /* SailsJS.app */,
+				AD98DE7424FCC50F0057D369 /* SailsJSTests.xctest */,
+				AD98DE7F24FCC50F0057D369 /* SailsJSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD98DE6524FCC50D0057D369 /* SailsJS */ = {
+			isa = PBXGroup;
+			children = (
+				AD98DE6624FCC50D0057D369 /* SailsJSApp.swift */,
+				AD98DE6824FCC50D0057D369 /* ContentView.swift */,
+				AD98DE6A24FCC50F0057D369 /* Assets.xcassets */,
+				AD98DE6F24FCC50F0057D369 /* Info.plist */,
+				AD98DE6C24FCC50F0057D369 /* Preview Content */,
+			);
+			path = SailsJS;
+			sourceTree = "<group>";
+		};
+		AD98DE6C24FCC50F0057D369 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD98DE6D24FCC50F0057D369 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD98DE7724FCC50F0057D369 /* SailsJSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD98DE7824FCC50F0057D369 /* SailsJSTests.swift */,
+				AD98DE7A24FCC50F0057D369 /* Info.plist */,
+			);
+			path = SailsJSTests;
+			sourceTree = "<group>";
+		};
+		AD98DE8224FCC50F0057D369 /* SailsJSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD98DE8324FCC50F0057D369 /* SailsJSUITests.swift */,
+				AD98DE8524FCC50F0057D369 /* Info.plist */,
+			);
+			path = SailsJSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD98DE6224FCC50D0057D369 /* SailsJS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD98DE8824FCC50F0057D369 /* Build configuration list for PBXNativeTarget "SailsJS" */;
+			buildPhases = (
+				AD98DE5F24FCC50D0057D369 /* Sources */,
+				AD98DE6024FCC50D0057D369 /* Frameworks */,
+				AD98DE6124FCC50D0057D369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SailsJS;
+			productName = SailsJS;
+			productReference = AD98DE6324FCC50D0057D369 /* SailsJS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD98DE7324FCC50F0057D369 /* SailsJSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD98DE8B24FCC50F0057D369 /* Build configuration list for PBXNativeTarget "SailsJSTests" */;
+			buildPhases = (
+				AD98DE7024FCC50F0057D369 /* Sources */,
+				AD98DE7124FCC50F0057D369 /* Frameworks */,
+				AD98DE7224FCC50F0057D369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD98DE7624FCC50F0057D369 /* PBXTargetDependency */,
+			);
+			name = SailsJSTests;
+			productName = SailsJSTests;
+			productReference = AD98DE7424FCC50F0057D369 /* SailsJSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD98DE7E24FCC50F0057D369 /* SailsJSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD98DE8E24FCC50F0057D369 /* Build configuration list for PBXNativeTarget "SailsJSUITests" */;
+			buildPhases = (
+				AD98DE7B24FCC50F0057D369 /* Sources */,
+				AD98DE7C24FCC50F0057D369 /* Frameworks */,
+				AD98DE7D24FCC50F0057D369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD98DE8124FCC50F0057D369 /* PBXTargetDependency */,
+			);
+			name = SailsJSUITests;
+			productName = SailsJSUITests;
+			productReference = AD98DE7F24FCC50F0057D369 /* SailsJSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD98DE5B24FCC50D0057D369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AD98DE6224FCC50D0057D369 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					AD98DE7324FCC50F0057D369 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AD98DE6224FCC50D0057D369;
+					};
+					AD98DE7E24FCC50F0057D369 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AD98DE6224FCC50D0057D369;
+					};
+				};
+			};
+			buildConfigurationList = AD98DE5E24FCC50D0057D369 /* Build configuration list for PBXProject "SailsJS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD98DE5A24FCC50D0057D369;
+			productRefGroup = AD98DE6424FCC50D0057D369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD98DE6224FCC50D0057D369 /* SailsJS */,
+				AD98DE7324FCC50F0057D369 /* SailsJSTests */,
+				AD98DE7E24FCC50F0057D369 /* SailsJSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD98DE6124FCC50D0057D369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD98DE6E24FCC50F0057D369 /* Preview Assets.xcassets in Resources */,
+				AD98DE6B24FCC50F0057D369 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD98DE7224FCC50F0057D369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD98DE7D24FCC50F0057D369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD98DE5F24FCC50D0057D369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD98DE6924FCC50D0057D369 /* ContentView.swift in Sources */,
+				AD98DE6724FCC50D0057D369 /* SailsJSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD98DE7024FCC50F0057D369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD98DE7924FCC50F0057D369 /* SailsJSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD98DE7B24FCC50F0057D369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD98DE8424FCC50F0057D369 /* SailsJSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD98DE7624FCC50F0057D369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD98DE6224FCC50D0057D369 /* SailsJS */;
+			targetProxy = AD98DE7524FCC50F0057D369 /* PBXContainerItemProxy */;
+		};
+		AD98DE8124FCC50F0057D369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD98DE6224FCC50D0057D369 /* SailsJS */;
+			targetProxy = AD98DE8024FCC50F0057D369 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD98DE8624FCC50F0057D369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD98DE8724FCC50F0057D369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD98DE8924FCC50F0057D369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SailsJS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SailsJS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.SailsJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD98DE8A24FCC50F0057D369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SailsJS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SailsJS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.SailsJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD98DE8C24FCC50F0057D369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SailsJSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.SailsJSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SailsJS.app/SailsJS";
+			};
+			name = Debug;
+		};
+		AD98DE8D24FCC50F0057D369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SailsJSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.SailsJSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SailsJS.app/SailsJS";
+			};
+			name = Release;
+		};
+		AD98DE8F24FCC50F0057D369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SailsJSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.SailsJSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SailsJS;
+			};
+			name = Debug;
+		};
+		AD98DE9024FCC50F0057D369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SailsJSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.SailsJSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SailsJS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD98DE5E24FCC50D0057D369 /* Build configuration list for PBXProject "SailsJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD98DE8624FCC50F0057D369 /* Debug */,
+				AD98DE8724FCC50F0057D369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD98DE8824FCC50F0057D369 /* Build configuration list for PBXNativeTarget "SailsJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD98DE8924FCC50F0057D369 /* Debug */,
+				AD98DE8A24FCC50F0057D369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD98DE8B24FCC50F0057D369 /* Build configuration list for PBXNativeTarget "SailsJSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD98DE8C24FCC50F0057D369 /* Debug */,
+				AD98DE8D24FCC50F0057D369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD98DE8E24FCC50F0057D369 /* Build configuration list for PBXNativeTarget "SailsJSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD98DE8F24FCC50F0057D369 /* Debug */,
+				AD98DE9024FCC50F0057D369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD98DE5B24FCC50D0057D369 /* Project object */;
+}
