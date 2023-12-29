@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD426F3B266557F900B275D9 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD426F3A266557F900B275D9 /* Tests_iOS.swift */; };
+		AD426F46266557F900B275D9 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD426F45266557F900B275D9 /* Tests_macOS.swift */; };
+		AD426F48266557F900B275D9 /* ParticleEmissionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD426F1F266557F800B275D9 /* ParticleEmissionApp.swift */; };
+		AD426F49266557F900B275D9 /* ParticleEmissionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD426F1F266557F800B275D9 /* ParticleEmissionApp.swift */; };
+		AD426F4A266557F900B275D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD426F20266557F800B275D9 /* ContentView.swift */; };
+		AD426F4B266557F900B275D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD426F20266557F800B275D9 /* ContentView.swift */; };
+		AD426F4C266557F900B275D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD426F21266557F900B275D9 /* Assets.xcassets */; };
+		AD426F4D266557F900B275D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD426F21266557F900B275D9 /* Assets.xcassets */; };
+		AD87AD1F266577B900373980 /* Limelight-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD87AD1E266577B900373980 /* Limelight-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD426F37266557F900B275D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD426F1A266557F800B275D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD426F25266557F900B275D9;
+			remoteInfo = "ParticleEmission (iOS)";
+		};
+		AD426F42266557F900B275D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD426F1A266557F800B275D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD426F2D266557F900B275D9;
+			remoteInfo = "ParticleEmission (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD426F1F266557F800B275D9 /* ParticleEmissionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEmissionApp.swift; sourceTree = "<group>"; };
+		AD426F20266557F800B275D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD426F21266557F900B275D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD426F26266557F900B275D9 /* ParticleEmission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleEmission.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD426F29266557F900B275D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD426F2E266557F900B275D9 /* ParticleEmission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleEmission.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD426F30266557F900B275D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD426F31266557F900B275D9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AD426F36266557F900B275D9 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD426F3A266557F900B275D9 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AD426F3C266557F900B275D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD426F41266557F900B275D9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD426F45266557F900B275D9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AD426F47266557F900B275D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD87AD1E266577B900373980 /* Limelight-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Limelight-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD426F23266557F900B275D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD426F2B266557F900B275D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD426F33266557F900B275D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD426F3E266557F900B275D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD426F19266557F800B275D9 = {
+			isa = PBXGroup;
+			children = (
+				AD426F1E266557F800B275D9 /* Shared */,
+				AD426F28266557F900B275D9 /* iOS */,
+				AD426F2F266557F900B275D9 /* macOS */,
+				AD426F39266557F900B275D9 /* Tests iOS */,
+				AD426F44266557F900B275D9 /* Tests macOS */,
+				AD426F27266557F900B275D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD426F1E266557F800B275D9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD87AD1D266577AE00373980 /* Fonts */,
+				AD426F1F266557F800B275D9 /* ParticleEmissionApp.swift */,
+				AD426F20266557F800B275D9 /* ContentView.swift */,
+				AD426F21266557F900B275D9 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD426F27266557F900B275D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD426F26266557F900B275D9 /* ParticleEmission.app */,
+				AD426F2E266557F900B275D9 /* ParticleEmission.app */,
+				AD426F36266557F900B275D9 /* Tests iOS.xctest */,
+				AD426F41266557F900B275D9 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD426F28266557F900B275D9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD426F29266557F900B275D9 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		AD426F2F266557F900B275D9 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD426F30266557F900B275D9 /* Info.plist */,
+				AD426F31266557F900B275D9 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AD426F39266557F900B275D9 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD426F3A266557F900B275D9 /* Tests_iOS.swift */,
+				AD426F3C266557F900B275D9 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AD426F44266557F900B275D9 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD426F45266557F900B275D9 /* Tests_macOS.swift */,
+				AD426F47266557F900B275D9 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		AD87AD1D266577AE00373980 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AD87AD1E266577B900373980 /* Limelight-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD426F25266557F900B275D9 /* ParticleEmission (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD426F50266557F900B275D9 /* Build configuration list for PBXNativeTarget "ParticleEmission (iOS)" */;
+			buildPhases = (
+				AD426F22266557F900B275D9 /* Sources */,
+				AD426F23266557F900B275D9 /* Frameworks */,
+				AD426F24266557F900B275D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ParticleEmission (iOS)";
+			productName = "ParticleEmission (iOS)";
+			productReference = AD426F26266557F900B275D9 /* ParticleEmission.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD426F2D266557F900B275D9 /* ParticleEmission (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD426F53266557F900B275D9 /* Build configuration list for PBXNativeTarget "ParticleEmission (macOS)" */;
+			buildPhases = (
+				AD426F2A266557F900B275D9 /* Sources */,
+				AD426F2B266557F900B275D9 /* Frameworks */,
+				AD426F2C266557F900B275D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ParticleEmission (macOS)";
+			productName = "ParticleEmission (macOS)";
+			productReference = AD426F2E266557F900B275D9 /* ParticleEmission.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD426F35266557F900B275D9 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD426F56266557F900B275D9 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AD426F32266557F900B275D9 /* Sources */,
+				AD426F33266557F900B275D9 /* Frameworks */,
+				AD426F34266557F900B275D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD426F38266557F900B275D9 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AD426F36266557F900B275D9 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD426F40266557F900B275D9 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD426F59266557F900B275D9 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AD426F3D266557F900B275D9 /* Sources */,
+				AD426F3E266557F900B275D9 /* Frameworks */,
+				AD426F3F266557F900B275D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD426F43266557F900B275D9 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AD426F41266557F900B275D9 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD426F1A266557F800B275D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AD426F25266557F900B275D9 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					AD426F2D266557F900B275D9 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					AD426F35266557F900B275D9 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = AD426F25266557F900B275D9;
+					};
+					AD426F40266557F900B275D9 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = AD426F2D266557F900B275D9;
+					};
+				};
+			};
+			buildConfigurationList = AD426F1D266557F800B275D9 /* Build configuration list for PBXProject "ParticleEmission" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD426F19266557F800B275D9;
+			productRefGroup = AD426F27266557F900B275D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD426F25266557F900B275D9 /* ParticleEmission (iOS) */,
+				AD426F2D266557F900B275D9 /* ParticleEmission (macOS) */,
+				AD426F35266557F900B275D9 /* Tests iOS */,
+				AD426F40266557F900B275D9 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD426F24266557F900B275D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD426F4C266557F900B275D9 /* Assets.xcassets in Resources */,
+				AD87AD1F266577B900373980 /* Limelight-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD426F2C266557F900B275D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD426F4D266557F900B275D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD426F34266557F900B275D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD426F3F266557F900B275D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD426F22266557F900B275D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD426F4A266557F900B275D9 /* ContentView.swift in Sources */,
+				AD426F48266557F900B275D9 /* ParticleEmissionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD426F2A266557F900B275D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD426F4B266557F900B275D9 /* ContentView.swift in Sources */,
+				AD426F49266557F900B275D9 /* ParticleEmissionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD426F32266557F900B275D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD426F3B266557F900B275D9 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD426F3D266557F900B275D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD426F46266557F900B275D9 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD426F38266557F900B275D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD426F25266557F900B275D9 /* ParticleEmission (iOS) */;
+			targetProxy = AD426F37266557F900B275D9 /* PBXContainerItemProxy */;
+		};
+		AD426F43266557F900B275D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD426F2D266557F900B275D9 /* ParticleEmission (macOS) */;
+			targetProxy = AD426F42266557F900B275D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD426F4E266557F900B275D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD426F4F266557F900B275D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD426F51266557F900B275D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.ParticleEmission;
+				PRODUCT_NAME = ParticleEmission;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD426F52266557F900B275D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.ParticleEmission;
+				PRODUCT_NAME = ParticleEmission;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD426F54266557F900B275D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.ParticleEmission;
+				PRODUCT_NAME = ParticleEmission;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD426F55266557F900B275D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.ParticleEmission;
+				PRODUCT_NAME = ParticleEmission;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD426F57266557F900B275D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ParticleEmission (iOS)";
+			};
+			name = Debug;
+		};
+		AD426F58266557F900B275D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ParticleEmission (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD426F5A266557F900B275D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ParticleEmission (macOS)";
+			};
+			name = Debug;
+		};
+		AD426F5B266557F900B275D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ParticleEmission (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD426F1D266557F800B275D9 /* Build configuration list for PBXProject "ParticleEmission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD426F4E266557F900B275D9 /* Debug */,
+				AD426F4F266557F900B275D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD426F50266557F900B275D9 /* Build configuration list for PBXNativeTarget "ParticleEmission (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD426F51266557F900B275D9 /* Debug */,
+				AD426F52266557F900B275D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD426F53266557F900B275D9 /* Build configuration list for PBXNativeTarget "ParticleEmission (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD426F54266557F900B275D9 /* Debug */,
+				AD426F55266557F900B275D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD426F56266557F900B275D9 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD426F57266557F900B275D9 /* Debug */,
+				AD426F58266557F900B275D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD426F59266557F900B275D9 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD426F5A266557F900B275D9 /* Debug */,
+				AD426F5B266557F900B275D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD426F1A266557F800B275D9 /* Project object */;
+}
