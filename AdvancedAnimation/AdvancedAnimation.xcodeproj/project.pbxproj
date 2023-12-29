@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD17ADAC27A8761C00394BB5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17ADAB27A8761C00394BB5 /* Extensions.swift */; };
+		AD17ADAE27A8790500394BB5 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17ADAD27A8790500394BB5 /* ShareSheet.swift */; };
 		AD628922277BAF2100243BDC /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD628921277BAF2100243BDC /* Tests_iOS.swift */; };
 		AD628924277BAF2100243BDC /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD628923277BAF2100243BDC /* Tests_iOSLaunchTests.swift */; };
 		AD62892E277BAF2100243BDC /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62892D277BAF2100243BDC /* Tests_macOS.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD17ADAB27A8761C00394BB5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AD17ADAD27A8790500394BB5 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 		AD628909277BAF2000243BDC /* AdvancedAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedAnimationApp.swift; sourceTree = "<group>"; };
 		AD62890A277BAF2000243BDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD62890B277BAF2100243BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD17ADAA27A8761100394BB5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD17ADAB27A8761C00394BB5 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		AD628903277BAF2000243BDC = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		AD628908277BAF2000243BDC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				AD17ADAA27A8761100394BB5 /* Helpers */,
 				AD899F30277C8F7400107E96 /* Model */,
 				AD899F2F277C8F7000107E96 /* View */,
 				AD628909277BAF2000243BDC /* AdvancedAnimationApp.swift */,
@@ -151,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				AD899F33277C8FA100107E96 /* Home.swift */,
+				AD17ADAD27A8790500394BB5 /* ShareSheet.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,6 +335,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD17ADAC27A8761C00394BB5 /* Extensions.swift in Sources */,
+				AD17ADAE27A8790500394BB5 /* ShareSheet.swift in Sources */,
 				AD628933277BAF2100243BDC /* ContentView.swift in Sources */,
 				AD628931277BAF2100243BDC /* AdvancedAnimationApp.swift in Sources */,
 				AD899F34277C8FA100107E96 /* Home.swift in Sources */,
@@ -489,14 +505,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -518,14 +537,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

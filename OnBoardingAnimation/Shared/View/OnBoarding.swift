@@ -9,6 +9,8 @@ import SwiftUI
 
 struct OnBoarding: View {
     @State var offset: CGFloat = 0
+    @State var showLight: Bool = true
+    @State var currentHightlight: Int = 0
     var body: some View {
         
         // Custom Pager View...
@@ -85,6 +87,8 @@ struct OnBoarding: View {
                             .frame(maxWidth: .infinity)
                             .background(Color.white,in: RoundedRectangle(cornerRadius: 12))
                     }
+                    // MARK: Adding Spotlight View
+                    .spotlight(enabled: currentHightlight == 1, title: "Login into Account")
                     
                     Button {
                         
@@ -97,6 +101,7 @@ struct OnBoarding: View {
                             .frame(maxWidth: .infinity)
                             .background(Color.white,in: RoundedRectangle(cornerRadius: 12))
                     }
+                    .spotlight(enabled: currentHightlight == 2, title: "Signup New Account")
 
                 }
                 
@@ -109,6 +114,7 @@ struct OnBoarding: View {
                             .fontWeight(.semibold)
                             .foregroundColor(.white)
                     }
+                    .spotlight(enabled: currentHightlight == 3, title: "Skip Intro's")
                     
                     // Indicators...
                     HStack(spacing: 8){
@@ -121,8 +127,9 @@ struct OnBoarding: View {
                                 .animation(.easeInOut, value: getIndex())
                         }
                     }
+                    .spotlight(enabled: currentHightlight == 4, title: "Indicator's")
                     .frame(maxWidth: .infinity)
-                    
+
                     Button {
                         // Setting Mac Offset...
                         // max 4 screens so max will be 3*width....
@@ -132,15 +139,20 @@ struct OnBoarding: View {
                             .fontWeight(.semibold)
                             .foregroundColor(.white)
                     }
+                    .spotlight(enabled: currentHightlight == 5, title: "Next Intro")
 
                 }
                 .padding(.top,30)
                 .padding(.horizontal,8)
             }
             .padding()
+                
             
             ,alignment: .bottom
         )
+        .onTapGesture {
+            currentHightlight += 1
+        }
     }
     
     // getting Rotation...

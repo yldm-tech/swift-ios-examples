@@ -20,6 +20,7 @@
 		AD5002D126D92F230091E95B /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5002D026D92F230091E95B /* OnBoarding.swift */; };
 		AD5002D526D92F560091E95B /* BoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5002D426D92F560091E95B /* BoardingScreen.swift */; };
 		AD5002D726D92FFB0091E95B /* OffsetPageTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5002D626D92FFB0091E95B /* OffsetPageTabView.swift */; };
+		ADD0C79627B296F200E6748B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD0C79527B296F200E6748B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		AD5002D026D92F230091E95B /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
 		AD5002D426D92F560091E95B /* BoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingScreen.swift; sourceTree = "<group>"; };
 		AD5002D626D92FFB0091E95B /* OffsetPageTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetPageTabView.swift; sourceTree = "<group>"; };
+		ADD0C79527B296F200E6748B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		AD3D30DA26D9013D005DB966 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				ADD0C79427B296EC00E6748B /* Helpers */,
 				AD5002D326D92F480091E95B /* Model */,
 				AD5002CF26D92F1D0091E95B /* View */,
 				AD3D30DB26D9013D005DB966 /* OnBoardingAnimationApp.swift */,
@@ -154,6 +157,14 @@
 				AD5002D426D92F560091E95B /* BoardingScreen.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		ADD0C79427B296EC00E6748B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				ADD0C79527B296F200E6748B /* Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD3D310326D9013E005DB966 /* ContentView.swift in Sources */,
+				ADD0C79627B296F200E6748B /* Extensions.swift in Sources */,
 				AD5002D526D92F560091E95B /* BoardingScreen.swift in Sources */,
 				AD5002D726D92FFB0091E95B /* OffsetPageTabView.swift in Sources */,
 				AD5002D126D92F230091E95B /* OnBoarding.swift in Sources */,
