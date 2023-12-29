@@ -1,0 +1,6 @@
+framework module Pods_Global_Chat_Global_ChatUITests {
+  umbrella header "Pods-Global Chat-Global ChatUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
