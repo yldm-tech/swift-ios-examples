@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADD6E8C026A09C0A00711FA4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6E8BF26A09C0A00711FA4 /* Home.swift */; };
+		ADD6E8C226A09C3000711FA4 /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6E8C126A09C3000711FA4 /* StaggeredGrid.swift */; };
+		ADD6E8C526A09D4700711FA4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6E8C426A09D4700711FA4 /* Post.swift */; };
+		ADE97F27269F755C00942751 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE97F26269F755C00942751 /* Tests_iOS.swift */; };
+		ADE97F31269F755C00942751 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE97F30269F755C00942751 /* Tests_macOS.swift */; };
+		ADE97F32269F755C00942751 /* StaggeredGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE97F10269F755B00942751 /* StaggeredGridApp.swift */; };
+		ADE97F33269F755C00942751 /* StaggeredGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE97F10269F755B00942751 /* StaggeredGridApp.swift */; };
+		ADE97F34269F755C00942751 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE97F11269F755B00942751 /* ContentView.swift */; };
+		ADE97F35269F755C00942751 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE97F11269F755B00942751 /* ContentView.swift */; };
+		ADE97F36269F755C00942751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE97F12269F755C00942751 /* Assets.xcassets */; };
+		ADE97F37269F755C00942751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE97F12269F755C00942751 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADE97F23269F755C00942751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE97F0B269F755B00942751 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADE97F16269F755C00942751;
+			remoteInfo = "StaggeredGrid (iOS)";
+		};
+		ADE97F2D269F755C00942751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE97F0B269F755B00942751 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADE97F1C269F755C00942751;
+			remoteInfo = "StaggeredGrid (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADD6E8BF26A09C0A00711FA4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		ADD6E8C126A09C3000711FA4 /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
+		ADD6E8C426A09D4700711FA4 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		ADE97F10269F755B00942751 /* StaggeredGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGridApp.swift; sourceTree = "<group>"; };
+		ADE97F11269F755B00942751 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADE97F12269F755C00942751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADE97F17269F755C00942751 /* StaggeredGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaggeredGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE97F1D269F755C00942751 /* StaggeredGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaggeredGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE97F22269F755C00942751 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE97F26269F755C00942751 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		ADE97F2C269F755C00942751 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE97F30269F755C00942751 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADE97F14269F755C00942751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE97F1A269F755C00942751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE97F1F269F755C00942751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE97F29269F755C00942751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADD6E8BE26A09C0500711FA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADD6E8BF26A09C0A00711FA4 /* Home.swift */,
+				ADD6E8C126A09C3000711FA4 /* StaggeredGrid.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ADD6E8C326A09D4300711FA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADD6E8C426A09D4700711FA4 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADE97F0A269F755B00942751 = {
+			isa = PBXGroup;
+			children = (
+				ADE97F0F269F755B00942751 /* Shared */,
+				ADE97F25269F755C00942751 /* Tests iOS */,
+				ADE97F2F269F755C00942751 /* Tests macOS */,
+				ADE97F18269F755C00942751 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADE97F0F269F755B00942751 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ADD6E8C326A09D4300711FA4 /* Model */,
+				ADD6E8BE26A09C0500711FA4 /* View */,
+				ADE97F10269F755B00942751 /* StaggeredGridApp.swift */,
+				ADE97F11269F755B00942751 /* ContentView.swift */,
+				ADE97F12269F755C00942751 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ADE97F18269F755C00942751 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADE97F17269F755C00942751 /* StaggeredGrid.app */,
+				ADE97F1D269F755C00942751 /* StaggeredGrid.app */,
+				ADE97F22269F755C00942751 /* Tests iOS.xctest */,
+				ADE97F2C269F755C00942751 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADE97F25269F755C00942751 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADE97F26269F755C00942751 /* Tests_iOS.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		ADE97F2F269F755C00942751 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADE97F30269F755C00942751 /* Tests_macOS.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADE97F16269F755C00942751 /* StaggeredGrid (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE97F3A269F755C00942751 /* Build configuration list for PBXNativeTarget "StaggeredGrid (iOS)" */;
+			buildPhases = (
+				ADE97F13269F755C00942751 /* Sources */,
+				ADE97F14269F755C00942751 /* Frameworks */,
+				ADE97F15269F755C00942751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StaggeredGrid (iOS)";
+			productName = "StaggeredGrid (iOS)";
+			productReference = ADE97F17269F755C00942751 /* StaggeredGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADE97F1C269F755C00942751 /* StaggeredGrid (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE97F3D269F755C00942751 /* Build configuration list for PBXNativeTarget "StaggeredGrid (macOS)" */;
+			buildPhases = (
+				ADE97F19269F755C00942751 /* Sources */,
+				ADE97F1A269F755C00942751 /* Frameworks */,
+				ADE97F1B269F755C00942751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StaggeredGrid (macOS)";
+			productName = "StaggeredGrid (macOS)";
+			productReference = ADE97F1D269F755C00942751 /* StaggeredGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADE97F21269F755C00942751 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE97F40269F755C00942751 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				ADE97F1E269F755C00942751 /* Sources */,
+				ADE97F1F269F755C00942751 /* Frameworks */,
+				ADE97F20269F755C00942751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADE97F24269F755C00942751 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = ADE97F22269F755C00942751 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ADE97F2B269F755C00942751 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE97F43269F755C00942751 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				ADE97F28269F755C00942751 /* Sources */,
+				ADE97F29269F755C00942751 /* Frameworks */,
+				ADE97F2A269F755C00942751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADE97F2E269F755C00942751 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = ADE97F2C269F755C00942751 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADE97F0B269F755B00942751 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					ADE97F16269F755C00942751 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					ADE97F1C269F755C00942751 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					ADE97F21269F755C00942751 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = ADE97F16269F755C00942751;
+					};
+					ADE97F2B269F755C00942751 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = ADE97F1C269F755C00942751;
+					};
+				};
+			};
+			buildConfigurationList = ADE97F0E269F755B00942751 /* Build configuration list for PBXProject "StaggeredGrid" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADE97F0A269F755B00942751;
+			productRefGroup = ADE97F18269F755C00942751 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADE97F16269F755C00942751 /* StaggeredGrid (iOS) */,
+				ADE97F1C269F755C00942751 /* StaggeredGrid (macOS) */,
+				ADE97F21269F755C00942751 /* Tests iOS */,
+				ADE97F2B269F755C00942751 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADE97F15269F755C00942751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE97F36269F755C00942751 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE97F1B269F755C00942751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE97F37269F755C00942751 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE97F20269F755C00942751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE97F2A269F755C00942751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADE97F13269F755C00942751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE97F34269F755C00942751 /* ContentView.swift in Sources */,
+				ADD6E8C026A09C0A00711FA4 /* Home.swift in Sources */,
+				ADD6E8C226A09C3000711FA4 /* StaggeredGrid.swift in Sources */,
+				ADE97F32269F755C00942751 /* StaggeredGridApp.swift in Sources */,
+				ADD6E8C526A09D4700711FA4 /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE97F19269F755C00942751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE97F35269F755C00942751 /* ContentView.swift in Sources */,
+				ADE97F33269F755C00942751 /* StaggeredGridApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE97F1E269F755C00942751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE97F27269F755C00942751 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE97F28269F755C00942751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE97F31269F755C00942751 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADE97F24269F755C00942751 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADE97F16269F755C00942751 /* StaggeredGrid (iOS) */;
+			targetProxy = ADE97F23269F755C00942751 /* PBXContainerItemProxy */;
+		};
+		ADE97F2E269F755C00942751 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADE97F1C269F755C00942751 /* StaggeredGrid (macOS) */;
+			targetProxy = ADE97F2D269F755C00942751 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADE97F38269F755C00942751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADE97F39269F755C00942751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ADE97F3B269F755C00942751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.StaggeredGrid;
+				PRODUCT_NAME = StaggeredGrid;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADE97F3C269F755C00942751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.StaggeredGrid;
+				PRODUCT_NAME = StaggeredGrid;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADE97F3E269F755C00942751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.StaggeredGrid;
+				PRODUCT_NAME = StaggeredGrid;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ADE97F3F269F755C00942751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.StaggeredGrid;
+				PRODUCT_NAME = StaggeredGrid;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ADE97F41269F755C00942751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "StaggeredGrid (iOS)";
+			};
+			name = Debug;
+		};
+		ADE97F42269F755C00942751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "StaggeredGrid (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADE97F44269F755C00942751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "StaggeredGrid (macOS)";
+			};
+			name = Debug;
+		};
+		ADE97F45269F755C00942751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "StaggeredGrid (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADE97F0E269F755B00942751 /* Build configuration list for PBXProject "StaggeredGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE97F38269F755C00942751 /* Debug */,
+				ADE97F39269F755C00942751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE97F3A269F755C00942751 /* Build configuration list for PBXNativeTarget "StaggeredGrid (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE97F3B269F755C00942751 /* Debug */,
+				ADE97F3C269F755C00942751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE97F3D269F755C00942751 /* Build configuration list for PBXNativeTarget "StaggeredGrid (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE97F3E269F755C00942751 /* Debug */,
+				ADE97F3F269F755C00942751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE97F40269F755C00942751 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE97F41269F755C00942751 /* Debug */,
+				ADE97F42269F755C00942751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE97F43269F755C00942751 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE97F44269F755C00942751 /* Debug */,
+				ADE97F45269F755C00942751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADE97F0B269F755B00942751 /* Project object */;
+}

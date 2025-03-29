@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD4B38B4268F82F80069819B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B38B3268F82F80069819B /* Home.swift */; };
+		AD4B38B7268F851D0069819B /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B38B6268F851D0069819B /* Meeting.swift */; };
+		AD4B38B9268F85810069819B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B38B8268F85810069819B /* HomeViewModel.swift */; };
+		AD4B38BB268F85F40069819B /* MeetingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B38BA268F85F40069819B /* MeetingCardView.swift */; };
+		AD4B38BD268F88570069819B /* AddMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4B38BC268F88570069819B /* AddMeeting.swift */; };
+		ADB7363D268F51D3008F3990 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB7363C268F51D3008F3990 /* Tests_iOS.swift */; };
+		ADB73647268F51D3008F3990 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB73646268F51D3008F3990 /* Tests_macOS.swift */; };
+		ADB73648268F51D3008F3990 /* Meeting_App_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB73626268F51D3008F3990 /* Meeting_App_UIApp.swift */; };
+		ADB73649268F51D3008F3990 /* Meeting_App_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB73626268F51D3008F3990 /* Meeting_App_UIApp.swift */; };
+		ADB7364A268F51D3008F3990 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB73627268F51D3008F3990 /* ContentView.swift */; };
+		ADB7364B268F51D3008F3990 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB73627268F51D3008F3990 /* ContentView.swift */; };
+		ADB7364C268F51D3008F3990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB73628268F51D3008F3990 /* Assets.xcassets */; };
+		ADB7364D268F51D3008F3990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB73628268F51D3008F3990 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADB73639268F51D3008F3990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADB73621268F51D3008F3990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADB7362C268F51D3008F3990;
+			remoteInfo = "Meeting App UI (iOS)";
+		};
+		ADB73643268F51D3008F3990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADB73621268F51D3008F3990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADB73632268F51D3008F3990;
+			remoteInfo = "Meeting App UI (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD4B38B3268F82F80069819B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD4B38B6268F851D0069819B /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		AD4B38B8268F85810069819B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AD4B38BA268F85F40069819B /* MeetingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingCardView.swift; sourceTree = "<group>"; };
+		AD4B38BC268F88570069819B /* AddMeeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeeting.swift; sourceTree = "<group>"; };
+		ADB73626268F51D3008F3990 /* Meeting_App_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting_App_UIApp.swift; sourceTree = "<group>"; };
+		ADB73627268F51D3008F3990 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADB73628268F51D3008F3990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADB7362D268F51D3008F3990 /* Meeting App UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meeting App UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB73633268F51D3008F3990 /* Meeting App UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meeting App UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB73638268F51D3008F3990 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB7363C268F51D3008F3990 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		ADB73642268F51D3008F3990 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB73646268F51D3008F3990 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADB7362A268F51D3008F3990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB73630268F51D3008F3990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB73635268F51D3008F3990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB7363F268F51D3008F3990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD4B38B1268F82E80069819B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B38B3268F82F80069819B /* Home.swift */,
+				AD4B38BA268F85F40069819B /* MeetingCardView.swift */,
+				AD4B38BC268F88570069819B /* AddMeeting.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD4B38B2268F82F30069819B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B38B8268F85810069819B /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AD4B38B5268F85120069819B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B38B6268F851D0069819B /* Meeting.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADB73620268F51D3008F3990 = {
+			isa = PBXGroup;
+			children = (
+				ADB73625268F51D3008F3990 /* Shared */,
+				ADB7363B268F51D3008F3990 /* Tests iOS */,
+				ADB73645268F51D3008F3990 /* Tests macOS */,
+				ADB7362E268F51D3008F3990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADB73625268F51D3008F3990 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD4B38B5268F85120069819B /* Model */,
+				AD4B38B2268F82F30069819B /* ViewModel */,
+				AD4B38B1268F82E80069819B /* View */,
+				ADB73626268F51D3008F3990 /* Meeting_App_UIApp.swift */,
+				ADB73627268F51D3008F3990 /* ContentView.swift */,
+				ADB73628268F51D3008F3990 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ADB7362E268F51D3008F3990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADB7362D268F51D3008F3990 /* Meeting App UI.app */,
+				ADB73633268F51D3008F3990 /* Meeting App UI.app */,
+				ADB73638268F51D3008F3990 /* Tests iOS.xctest */,
+				ADB73642268F51D3008F3990 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADB7363B268F51D3008F3990 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADB7363C268F51D3008F3990 /* Tests_iOS.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		ADB73645268F51D3008F3990 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADB73646268F51D3008F3990 /* Tests_macOS.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADB7362C268F51D3008F3990 /* Meeting App UI (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB73650268F51D3008F3990 /* Build configuration list for PBXNativeTarget "Meeting App UI (iOS)" */;
+			buildPhases = (
+				ADB73629268F51D3008F3990 /* Sources */,
+				ADB7362A268F51D3008F3990 /* Frameworks */,
+				ADB7362B268F51D3008F3990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meeting App UI (iOS)";
+			productName = "Meeting App UI (iOS)";
+			productReference = ADB7362D268F51D3008F3990 /* Meeting App UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADB73632268F51D3008F3990 /* Meeting App UI (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB73653268F51D3008F3990 /* Build configuration list for PBXNativeTarget "Meeting App UI (macOS)" */;
+			buildPhases = (
+				ADB7362F268F51D3008F3990 /* Sources */,
+				ADB73630268F51D3008F3990 /* Frameworks */,
+				ADB73631268F51D3008F3990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meeting App UI (macOS)";
+			productName = "Meeting App UI (macOS)";
+			productReference = ADB73633268F51D3008F3990 /* Meeting App UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADB73637268F51D3008F3990 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB73656268F51D3008F3990 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				ADB73634268F51D3008F3990 /* Sources */,
+				ADB73635268F51D3008F3990 /* Frameworks */,
+				ADB73636268F51D3008F3990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADB7363A268F51D3008F3990 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = ADB73638268F51D3008F3990 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ADB73641268F51D3008F3990 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB73659268F51D3008F3990 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				ADB7363E268F51D3008F3990 /* Sources */,
+				ADB7363F268F51D3008F3990 /* Frameworks */,
+				ADB73640268F51D3008F3990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADB73644268F51D3008F3990 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = ADB73642268F51D3008F3990 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADB73621268F51D3008F3990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					ADB7362C268F51D3008F3990 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					ADB73632268F51D3008F3990 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					ADB73637268F51D3008F3990 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = ADB7362C268F51D3008F3990;
+					};
+					ADB73641268F51D3008F3990 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = ADB73632268F51D3008F3990;
+					};
+				};
+			};
+			buildConfigurationList = ADB73624268F51D3008F3990 /* Build configuration list for PBXProject "Meeting App UI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADB73620268F51D3008F3990;
+			productRefGroup = ADB7362E268F51D3008F3990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADB7362C268F51D3008F3990 /* Meeting App UI (iOS) */,
+				ADB73632268F51D3008F3990 /* Meeting App UI (macOS) */,
+				ADB73637268F51D3008F3990 /* Tests iOS */,
+				ADB73641268F51D3008F3990 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADB7362B268F51D3008F3990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB7364C268F51D3008F3990 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB73631268F51D3008F3990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB7364D268F51D3008F3990 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB73636268F51D3008F3990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB73640268F51D3008F3990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADB73629268F51D3008F3990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB7364A268F51D3008F3990 /* ContentView.swift in Sources */,
+				AD4B38B7268F851D0069819B /* Meeting.swift in Sources */,
+				AD4B38B4268F82F80069819B /* Home.swift in Sources */,
+				AD4B38B9268F85810069819B /* HomeViewModel.swift in Sources */,
+				AD4B38BB268F85F40069819B /* MeetingCardView.swift in Sources */,
+				AD4B38BD268F88570069819B /* AddMeeting.swift in Sources */,
+				ADB73648268F51D3008F3990 /* Meeting_App_UIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB7362F268F51D3008F3990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB7364B268F51D3008F3990 /* ContentView.swift in Sources */,
+				ADB73649268F51D3008F3990 /* Meeting_App_UIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB73634268F51D3008F3990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB7363D268F51D3008F3990 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB7363E268F51D3008F3990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB73647268F51D3008F3990 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADB7363A268F51D3008F3990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADB7362C268F51D3008F3990 /* Meeting App UI (iOS) */;
+			targetProxy = ADB73639268F51D3008F3990 /* PBXContainerItemProxy */;
+		};
+		ADB73644268F51D3008F3990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADB73632268F51D3008F3990 /* Meeting App UI (macOS) */;
+			targetProxy = ADB73643268F51D3008F3990 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADB7364E268F51D3008F3990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADB7364F268F51D3008F3990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ADB73651268F51D3008F3990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Meeting-App-UI";
+				PRODUCT_NAME = "Meeting App UI";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADB73652268F51D3008F3990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Meeting-App-UI";
+				PRODUCT_NAME = "Meeting App UI";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADB73654268F51D3008F3990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Meeting-App-UI";
+				PRODUCT_NAME = "Meeting App UI";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ADB73655268F51D3008F3990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Meeting-App-UI";
+				PRODUCT_NAME = "Meeting App UI";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ADB73657268F51D3008F3990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meeting App UI (iOS)";
+			};
+			name = Debug;
+		};
+		ADB73658268F51D3008F3990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meeting App UI (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADB7365A268F51D3008F3990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Meeting App UI (macOS)";
+			};
+			name = Debug;
+		};
+		ADB7365B268F51D3008F3990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Meeting App UI (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADB73624268F51D3008F3990 /* Build configuration list for PBXProject "Meeting App UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB7364E268F51D3008F3990 /* Debug */,
+				ADB7364F268F51D3008F3990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB73650268F51D3008F3990 /* Build configuration list for PBXNativeTarget "Meeting App UI (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB73651268F51D3008F3990 /* Debug */,
+				ADB73652268F51D3008F3990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB73653268F51D3008F3990 /* Build configuration list for PBXNativeTarget "Meeting App UI (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB73654268F51D3008F3990 /* Debug */,
+				ADB73655268F51D3008F3990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB73656268F51D3008F3990 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB73657268F51D3008F3990 /* Debug */,
+				ADB73658268F51D3008F3990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB73659268F51D3008F3990 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB7365A268F51D3008F3990 /* Debug */,
+				ADB7365B268F51D3008F3990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADB73621268F51D3008F3990 /* Project object */;
+}

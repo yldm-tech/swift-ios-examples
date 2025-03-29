@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA903242607DD32009C83DB /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA903232607DD32009C83DB /* Tests_iOS.swift */; };
+		ADA9032F2607DD32009C83DB /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9032E2607DD32009C83DB /* Tests_macOS.swift */; };
+		ADA903312607DD32009C83DB /* Animated_IndicatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA903082607DD31009C83DB /* Animated_IndicatorApp.swift */; };
+		ADA903322607DD32009C83DB /* Animated_IndicatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA903082607DD31009C83DB /* Animated_IndicatorApp.swift */; };
+		ADA903332607DD32009C83DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA903092607DD31009C83DB /* ContentView.swift */; };
+		ADA903342607DD32009C83DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA903092607DD31009C83DB /* ContentView.swift */; };
+		ADA903352607DD32009C83DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA9030A2607DD32009C83DB /* Assets.xcassets */; };
+		ADA903362607DD32009C83DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA9030A2607DD32009C83DB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADA903202607DD32009C83DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA903032607DD31009C83DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA9030E2607DD32009C83DB;
+			remoteInfo = "Animated Indicator (iOS)";
+		};
+		ADA9032B2607DD32009C83DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA903032607DD31009C83DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA903162607DD32009C83DB;
+			remoteInfo = "Animated Indicator (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADA903082607DD31009C83DB /* Animated_IndicatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animated_IndicatorApp.swift; sourceTree = "<group>"; };
+		ADA903092607DD31009C83DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADA9030A2607DD32009C83DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADA9030F2607DD32009C83DB /* Animated Indicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Indicator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA903122607DD32009C83DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA903172607DD32009C83DB /* Animated Indicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Indicator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA903192607DD32009C83DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA9031A2607DD32009C83DB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		ADA9031F2607DD32009C83DB /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA903232607DD32009C83DB /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		ADA903252607DD32009C83DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA9032A2607DD32009C83DB /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA9032E2607DD32009C83DB /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		ADA903302607DD32009C83DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA9030C2607DD32009C83DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA903142607DD32009C83DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA9031C2607DD32009C83DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA903272607DD32009C83DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADA903022607DD31009C83DB = {
+			isa = PBXGroup;
+			children = (
+				ADA903072607DD31009C83DB /* Shared */,
+				ADA903112607DD32009C83DB /* iOS */,
+				ADA903182607DD32009C83DB /* macOS */,
+				ADA903222607DD32009C83DB /* Tests iOS */,
+				ADA9032D2607DD32009C83DB /* Tests macOS */,
+				ADA903102607DD32009C83DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA903072607DD31009C83DB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ADA903082607DD31009C83DB /* Animated_IndicatorApp.swift */,
+				ADA903092607DD31009C83DB /* ContentView.swift */,
+				ADA9030A2607DD32009C83DB /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ADA903102607DD32009C83DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA9030F2607DD32009C83DB /* Animated Indicator.app */,
+				ADA903172607DD32009C83DB /* Animated Indicator.app */,
+				ADA9031F2607DD32009C83DB /* Tests iOS.xctest */,
+				ADA9032A2607DD32009C83DB /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA903112607DD32009C83DB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADA903122607DD32009C83DB /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		ADA903182607DD32009C83DB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADA903192607DD32009C83DB /* Info.plist */,
+				ADA9031A2607DD32009C83DB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		ADA903222607DD32009C83DB /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADA903232607DD32009C83DB /* Tests_iOS.swift */,
+				ADA903252607DD32009C83DB /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		ADA9032D2607DD32009C83DB /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADA9032E2607DD32009C83DB /* Tests_macOS.swift */,
+				ADA903302607DD32009C83DB /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA9030E2607DD32009C83DB /* Animated Indicator (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA903392607DD32009C83DB /* Build configuration list for PBXNativeTarget "Animated Indicator (iOS)" */;
+			buildPhases = (
+				ADA9030B2607DD32009C83DB /* Sources */,
+				ADA9030C2607DD32009C83DB /* Frameworks */,
+				ADA9030D2607DD32009C83DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animated Indicator (iOS)";
+			productName = "Animated Indicator (iOS)";
+			productReference = ADA9030F2607DD32009C83DB /* Animated Indicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADA903162607DD32009C83DB /* Animated Indicator (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA9033C2607DD32009C83DB /* Build configuration list for PBXNativeTarget "Animated Indicator (macOS)" */;
+			buildPhases = (
+				ADA903132607DD32009C83DB /* Sources */,
+				ADA903142607DD32009C83DB /* Frameworks */,
+				ADA903152607DD32009C83DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animated Indicator (macOS)";
+			productName = "Animated Indicator (macOS)";
+			productReference = ADA903172607DD32009C83DB /* Animated Indicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADA9031E2607DD32009C83DB /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA9033F2607DD32009C83DB /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				ADA9031B2607DD32009C83DB /* Sources */,
+				ADA9031C2607DD32009C83DB /* Frameworks */,
+				ADA9031D2607DD32009C83DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA903212607DD32009C83DB /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = ADA9031F2607DD32009C83DB /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ADA903292607DD32009C83DB /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA903422607DD32009C83DB /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				ADA903262607DD32009C83DB /* Sources */,
+				ADA903272607DD32009C83DB /* Frameworks */,
+				ADA903282607DD32009C83DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA9032C2607DD32009C83DB /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = ADA9032A2607DD32009C83DB /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA903032607DD31009C83DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					ADA9030E2607DD32009C83DB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					ADA903162607DD32009C83DB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					ADA9031E2607DD32009C83DB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ADA9030E2607DD32009C83DB;
+					};
+					ADA903292607DD32009C83DB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ADA903162607DD32009C83DB;
+					};
+				};
+			};
+			buildConfigurationList = ADA903062607DD31009C83DB /* Build configuration list for PBXProject "Animated Indicator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA903022607DD31009C83DB;
+			productRefGroup = ADA903102607DD32009C83DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA9030E2607DD32009C83DB /* Animated Indicator (iOS) */,
+				ADA903162607DD32009C83DB /* Animated Indicator (macOS) */,
+				ADA9031E2607DD32009C83DB /* Tests iOS */,
+				ADA903292607DD32009C83DB /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA9030D2607DD32009C83DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA903352607DD32009C83DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA903152607DD32009C83DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA903362607DD32009C83DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA9031D2607DD32009C83DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA903282607DD32009C83DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA9030B2607DD32009C83DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA903332607DD32009C83DB /* ContentView.swift in Sources */,
+				ADA903312607DD32009C83DB /* Animated_IndicatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA903132607DD32009C83DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA903342607DD32009C83DB /* ContentView.swift in Sources */,
+				ADA903322607DD32009C83DB /* Animated_IndicatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA9031B2607DD32009C83DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA903242607DD32009C83DB /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA903262607DD32009C83DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA9032F2607DD32009C83DB /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADA903212607DD32009C83DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA9030E2607DD32009C83DB /* Animated Indicator (iOS) */;
+			targetProxy = ADA903202607DD32009C83DB /* PBXContainerItemProxy */;
+		};
+		ADA9032C2607DD32009C83DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA903162607DD32009C83DB /* Animated Indicator (macOS) */;
+			targetProxy = ADA9032B2607DD32009C83DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADA903372607DD32009C83DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADA903382607DD32009C83DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ADA9033A2607DD32009C83DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Animated-Indicator";
+				PRODUCT_NAME = "Animated Indicator";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADA9033B2607DD32009C83DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Animated-Indicator";
+				PRODUCT_NAME = "Animated Indicator";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA9033D2607DD32009C83DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Animated-Indicator";
+				PRODUCT_NAME = "Animated Indicator";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ADA9033E2607DD32009C83DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Animated-Indicator";
+				PRODUCT_NAME = "Animated Indicator";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ADA903402607DD32009C83DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Animated Indicator (iOS)";
+			};
+			name = Debug;
+		};
+		ADA903412607DD32009C83DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Animated Indicator (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA903432607DD32009C83DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Animated Indicator (macOS)";
+			};
+			name = Debug;
+		};
+		ADA903442607DD32009C83DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Animated Indicator (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA903062607DD31009C83DB /* Build configuration list for PBXProject "Animated Indicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA903372607DD32009C83DB /* Debug */,
+				ADA903382607DD32009C83DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA903392607DD32009C83DB /* Build configuration list for PBXNativeTarget "Animated Indicator (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA9033A2607DD32009C83DB /* Debug */,
+				ADA9033B2607DD32009C83DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA9033C2607DD32009C83DB /* Build configuration list for PBXNativeTarget "Animated Indicator (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA9033D2607DD32009C83DB /* Debug */,
+				ADA9033E2607DD32009C83DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA9033F2607DD32009C83DB /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA903402607DD32009C83DB /* Debug */,
+				ADA903412607DD32009C83DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA903422607DD32009C83DB /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA903432607DD32009C83DB /* Debug */,
+				ADA903442607DD32009C83DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA903032607DD31009C83DB /* Project object */;
+}

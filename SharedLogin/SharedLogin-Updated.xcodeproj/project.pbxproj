@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD552FF529C379DA001653C8 /* SharedLogin_UpdatedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD552FF429C379DA001653C8 /* SharedLogin_UpdatedApp.swift */; };
+		AD552FF729C379DA001653C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD552FF629C379DA001653C8 /* ContentView.swift */; };
+		AD552FF929C379DA001653C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD552FF829C379DA001653C8 /* Assets.xcassets */; };
+		AD552FFD29C379DA001653C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD552FFC29C379DA001653C8 /* Preview Assets.xcassets */; };
+		AD55300729C379FE001653C8 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55300629C379FE001653C8 /* LoginViewModel.swift */; };
+		AD55300A29C37A04001653C8 /* LoginViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55300829C37A04001653C8 /* LoginViewModifier.swift */; };
+		AD55300B29C37A04001653C8 /* LoginButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55300929C37A04001653C8 /* LoginButtonModifier.swift */; };
+		AD55300F29C37A0A001653C8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55300C29C37A0A001653C8 /* Home.swift */; };
+		AD55301029C37A0A001653C8 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55300D29C37A0A001653C8 /* Login.swift */; };
+		AD55301129C37A0A001653C8 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55300E29C37A0A001653C8 /* Register.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD552FF129C379DA001653C8 /* SharedLogin-Updated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SharedLogin-Updated.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD552FF429C379DA001653C8 /* SharedLogin_UpdatedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedLogin_UpdatedApp.swift; sourceTree = "<group>"; };
+		AD552FF629C379DA001653C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD552FF829C379DA001653C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD552FFA29C379DA001653C8 /* SharedLogin_Updated.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SharedLogin_Updated.entitlements; sourceTree = "<group>"; };
+		AD552FFC29C379DA001653C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD55300629C379FE001653C8 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		AD55300829C37A04001653C8 /* LoginViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModifier.swift; sourceTree = "<group>"; };
+		AD55300929C37A04001653C8 /* LoginButtonModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginButtonModifier.swift; sourceTree = "<group>"; };
+		AD55300C29C37A0A001653C8 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AD55300D29C37A0A001653C8 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		AD55300E29C37A0A001653C8 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD552FEE29C379DA001653C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD552FE829C379DA001653C8 = {
+			isa = PBXGroup;
+			children = (
+				AD552FF329C379DA001653C8 /* SharedLogin-Updated */,
+				AD552FF229C379DA001653C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD552FF229C379DA001653C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD552FF129C379DA001653C8 /* SharedLogin-Updated.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD552FF329C379DA001653C8 /* SharedLogin-Updated */ = {
+			isa = PBXGroup;
+			children = (
+				AD55300429C379F1001653C8 /* View */,
+				AD55300329C379E9001653C8 /* ViewModel */,
+				AD552FF429C379DA001653C8 /* SharedLogin_UpdatedApp.swift */,
+				AD552FF629C379DA001653C8 /* ContentView.swift */,
+				AD552FF829C379DA001653C8 /* Assets.xcassets */,
+				AD552FFA29C379DA001653C8 /* SharedLogin_Updated.entitlements */,
+				AD552FFB29C379DA001653C8 /* Preview Content */,
+			);
+			path = "SharedLogin-Updated";
+			sourceTree = "<group>";
+		};
+		AD552FFB29C379DA001653C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD552FFC29C379DA001653C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD55300329C379E9001653C8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD55300629C379FE001653C8 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AD55300429C379F1001653C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD55300C29C37A0A001653C8 /* Home.swift */,
+				AD55300D29C37A0A001653C8 /* Login.swift */,
+				AD55300E29C37A0A001653C8 /* Register.swift */,
+				AD55300529C379F6001653C8 /* Modifiers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD55300529C379F6001653C8 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				AD55300929C37A04001653C8 /* LoginButtonModifier.swift */,
+				AD55300829C37A04001653C8 /* LoginViewModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD552FF029C379DA001653C8 /* SharedLogin-Updated */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD55300029C379DA001653C8 /* Build configuration list for PBXNativeTarget "SharedLogin-Updated" */;
+			buildPhases = (
+				AD552FED29C379DA001653C8 /* Sources */,
+				AD552FEE29C379DA001653C8 /* Frameworks */,
+				AD552FEF29C379DA001653C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SharedLogin-Updated";
+			productName = "SharedLogin-Updated";
+			productReference = AD552FF129C379DA001653C8 /* SharedLogin-Updated.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD552FE929C379DA001653C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AD552FF029C379DA001653C8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = AD552FEC29C379DA001653C8 /* Build configuration list for PBXProject "SharedLogin-Updated" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD552FE829C379DA001653C8;
+			productRefGroup = AD552FF229C379DA001653C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD552FF029C379DA001653C8 /* SharedLogin-Updated */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD552FEF29C379DA001653C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD552FFD29C379DA001653C8 /* Preview Assets.xcassets in Resources */,
+				AD552FF929C379DA001653C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD552FED29C379DA001653C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD55301029C37A0A001653C8 /* Login.swift in Sources */,
+				AD552FF729C379DA001653C8 /* ContentView.swift in Sources */,
+				AD55300A29C37A04001653C8 /* LoginViewModifier.swift in Sources */,
+				AD552FF529C379DA001653C8 /* SharedLogin_UpdatedApp.swift in Sources */,
+				AD55300B29C37A04001653C8 /* LoginButtonModifier.swift in Sources */,
+				AD55300F29C37A0A001653C8 /* Home.swift in Sources */,
+				AD55301129C37A0A001653C8 /* Register.swift in Sources */,
+				AD55300729C379FE001653C8 /* LoginViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD552FFE29C379DA001653C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD552FFF29C379DA001653C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD55300129C379DA001653C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SharedLogin-Updated/SharedLogin_Updated.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SharedLogin-Updated/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.SharedLogin-Updated";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD55300229C379DA001653C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SharedLogin-Updated/SharedLogin_Updated.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SharedLogin-Updated/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavsoft.SharedLogin-Updated";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD552FEC29C379DA001653C8 /* Build configuration list for PBXProject "SharedLogin-Updated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD552FFE29C379DA001653C8 /* Debug */,
+				AD552FFF29C379DA001653C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD55300029C379DA001653C8 /* Build configuration list for PBXNativeTarget "SharedLogin-Updated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD55300129C379DA001653C8 /* Debug */,
+				AD55300229C379DA001653C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD552FE929C379DA001653C8 /* Project object */;
+}
