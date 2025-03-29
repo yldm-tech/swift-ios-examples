@@ -348,6 +348,6 @@ struct DetailView : View {
             }
         }
         .background(Color("bg"))
-        .ignoresSafeArea(.all, edges: .bottom)
+        .ignoresSafeArea(.all, edges: .bottom)	
     }
 }
